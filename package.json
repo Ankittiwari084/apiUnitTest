@@ -1,0 +1,35 @@
+{
+  "name": "apiunittest",
+  "version": "1.0.0",
+  "description": "basic of api unit testing",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel api -d dist",
+    "start": "node --inspect index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankittiwari084/apiUnitTest.git"
+  },
+  "author": "AnkitTiwari084",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankittiwari084/apiUnitTest/issues"
+  },
+  "homepage": "https://github.com/Ankittiwari084/apiUnitTest#readme",
+  "dependencies": {
+    "ajv": "^6.9.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jest": "^24.1.0",
+    "mongoose": "^5.4.11",
+    "mongoose-model-cli": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
